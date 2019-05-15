@@ -1,0 +1,13 @@
+<div>
+    <div class="header-title">{{headerTitle}}</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 header-column-container" *ngFor="let header of headersData; let i = index" (click) ="setActiveColumn(i, header.title)" [ngClass]="{'highlight':selectedColumn === i} " >
+              <div>{{header[header.title]}}</div>
+              <div>{{header.title}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
