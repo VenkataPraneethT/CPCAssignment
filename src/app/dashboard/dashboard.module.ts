@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DataTableComponent } from './data-table/data-table.component';
 import { RouterModule } from '@angular/router';
-import { MatTableModule, MatPaginatorModule, MatSortModule} from '@angular/material';
+import { MatTableModule, MatPaginatorModule, MatSortModule, MatButtonModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ResultsPageComponent } from './results-page/results-page.component';
 import { TableHeaderComponent } from './table-header/table-header.component';
@@ -15,7 +15,8 @@ import { TableHeaderComponent } from './table-header/table-header.component';
     MatTableModule,
     MatPaginatorModule,
     BrowserAnimationsModule,
-    MatSortModule
+    MatSortModule,
+    MatButtonModule
   ],
   exports:[
     ResultsPageComponent,
