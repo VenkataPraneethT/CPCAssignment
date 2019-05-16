@@ -1,8 +1,14 @@
 
 .header-column-container {
-    border: 1px solid grey;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    text-align: center;
 }
 
 .highlight {
-    background: grey;
+    background: lightgray;
+}
+
+.header-container {
+    margin-bottom: 10px;
 }

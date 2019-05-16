@@ -6,15 +6,24 @@
     margin: 20px 20px;
     background: #D2B48C;
     width: 10%;
+    padding-left: 10px;
+    border-radius: 3px;
+    border-color: lightgray;
 }
 
 .tag-container {
-    border: 1px solid grey;
+    border: 1px solid lightgray;
     width: 100%;
 }
 
 .table-container{
     width: 100%;
+    box-shadow: 1px 1px lightgrey;
+    border: 1px solid lightgray;
+}
+
+.mat-table {
+    margin-bottom: 0px;
 }
 
 
@@ -28,4 +37,10 @@
 
 .edit-button-container {
     margin: 35px 0px;
+    border-radius: 4px;
+    background: #A9A9A9;
+}
+
+.mat-paginator {
+    background: rgba(0, 0, 0, 0.05);
 }
